@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "protocol_version": "v2.0",
+  "samples_per_case": 400,
+  "case_count": 140,
+  "trial_count": 56000,
+  "channel_models": [
+    "LOS",
+    "LOS_NLOS_K10"
+  ],
+  "methods_per_case": 7,
+  "full_main_grid": true,
+  "all_cases_have_400_trials": true,
+  "precoder_norm_max_abs_error": 8.992806499463768e-14,
+  "power_gain_max": 1.00000000000001,
+  "power_gain_min": 0.0387955863736036,
+  "BF_gain_summary_recomputed": true,
+  "mean_throughput_summary_recomputed": true,
+  "output_pngs": [
+    "E1_BF_gain_SNR.png",
+    "E1_throughput_SNR.png",
+    "E2_throughput_AP.png",
+    "E3_feedback_AP.png"
+  ]
+}

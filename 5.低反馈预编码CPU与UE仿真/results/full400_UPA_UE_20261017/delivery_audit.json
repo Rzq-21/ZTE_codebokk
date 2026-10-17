@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "protocol_version": "v2.0",
+  "samples_per_case": 400,
+  "case_count": 140,
+  "trial_count": 56000,
+  "methods_per_case": 7,
+  "all_cases_have_400_trials": true,
+  "low_feedback_trials_with_exact_CPU_direction_and_beam_match": 32000,
+  "shared_baseline_trials_identical_to_CPU_run": 24000,
+  "four_required_figure_files_present": true,
+  "UE_phase_bits_per_AP_relative_to_AP1": 4,
+  "max_precoder_norm_squared_error": 8.992806499463768e-14,
+  "max_power_gain": 1.00000000000001,
+  "summary_statistics_recomputed": true,
+  "feedback_costs_checked_against_frozen_manifest": true,
+  "CPU_UE_comparison_csv": "CPU_UE_B8_OBS30_comparison.csv",
+  "sample_bank_id": "SYNC_V2_400_20261016"
+}

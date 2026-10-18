@@ -1,0 +1,36 @@
+{
+  "arrays": {
+    "ULA": {
+      "main_new_records": 32000,
+      "supplement_records": 76800,
+      "merged_records_per_branch": 72000,
+      "cases_per_branch": 180,
+      "CPU_UE_coordinate_and_beam_equality": true,
+      "archived_seven_methods_preserved": true,
+      "shared_baseline_power_difference": 0.0,
+      "smoke_to_final_power_difference": 0.0,
+      "main_overflows": 0,
+      "supplement_overflows": 0,
+      "maximum_power_gain": 0.799017228518065
+    },
+    "UPA": {
+      "main_new_records": 32000,
+      "supplement_records": 80000,
+      "merged_records_per_branch": 72000,
+      "cases_per_branch": 180,
+      "CPU_UE_coordinate_and_beam_equality": true,
+      "archived_seven_methods_preserved": true,
+      "shared_baseline_power_difference": 0.0,
+      "smoke_to_final_power_difference": 0.0,
+      "main_overflows": 0,
+      "supplement_overflows": 0,
+      "maximum_power_gain": 0.928533905841005
+    }
+  },
+  "complete": true,
+  "total_new_main_records": 64000,
+  "total_supplement_records": 156800,
+  "total_merged_display_records": 288000,
+  "plots_PNG": 24,
+  "plots_FIG": 24
+}

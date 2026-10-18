@@ -1,0 +1,1 @@
+{"array":"ULA","mode":"smoke","samples":3,"settings":5,"new_main_records":120,"supplement_records":576,"maximum_precoder_norm_error":0,"maximum_power_gain":0.782405744693139,"main_overflow_count":0,"supplement_overflow_count":0,"main_axis_bits":[12,12],"cpu_ue_coordinate_and_beam_equality":"asserted per prediction","elapsed_seconds":2.070835,"status":"complete"}

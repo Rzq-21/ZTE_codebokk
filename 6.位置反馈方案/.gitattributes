@@ -1,0 +1,2 @@
+# Preserve the exact bytes used by source/input SHA256 audits on every platform.
+* -text

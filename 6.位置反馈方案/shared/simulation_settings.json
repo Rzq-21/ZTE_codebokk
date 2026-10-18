@@ -1,0 +1,89 @@
+{
+  "protocol_version": "v2.0",
+  "sample_bank_id": "SYNC_V2_400_20261016",
+  "samples": 400,
+  "UE_positions_file": "共享UE位置_400.csv",
+  "scatter_coefficients_file": "共享散射系数_400x6.csv",
+  "noise_seeds_file": "标准噪声种子_逐物理AP.csv",
+  "CSI": "noisy_for_all_realizable_methods",
+  "observation_SNR_dB": [
+    20,
+    25,
+    30,
+    35,
+    40
+  ],
+  "noise_variance": "mean(abs(H_active_true(:)).^2)/10^(observation_SNR_dB/10)",
+  "reference_data_SNR_dB": 10,
+  "reference_power": 0.25445623637403425,
+  "bandwidth_Hz": 20000000.0,
+  "Rician_K_dB": 10,
+  "scatterer_positions_m": [
+    [
+      10,
+      10,
+      0
+    ],
+    [
+      40,
+      10,
+      0
+    ],
+    [
+      10,
+      40,
+      0
+    ],
+    [
+      40,
+      40,
+      0
+    ],
+    [
+      25,
+      5,
+      0
+    ],
+    [
+      25,
+      45,
+      0
+    ]
+  ],
+  "scatter_model": "sum of 6 shared single-bounce scalar paths; exact element distances; each AP scatter matrix Frobenius-normalized to its LOS matrix; do not renormalize final mixed H",
+  "frequency_bits_per_dimension": 14,
+  "UE_phase_bits": 4,
+  "AP_total_counts": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "SNR_curve_B": 8,
+  "AP_curve_observation_SNR_dB": 30,
+  "performance_methods": [
+    "SVD",
+    "TypeII",
+    "TypeI",
+    "HAQSE_R3",
+    "DFT_R3",
+    "HAQSE_R5",
+    "DFT_R5"
+  ],
+  "channels": [
+    "LOS",
+    "LOS_NLOS_K10"
+  ],
+  "branches": [
+    "CPU",
+    "UE"
+  ],
+  "BF_gain_display": "sqrt(mean(power_gain)); not mean(sqrt(power_gain))",
+  "rate_statistic": "mean(log2(1+10/reference_power*norm(H_true*w)^2))",
+  "throughput_Mbps": "20*mean_SE",
+  "pilot_and_feedback_resource_subtraction": false,
+  "NLOS_and_AP_extensions_status": "new implementation defaults, not already validated performance results",
+  "core8_status": "ULA retained and UPA center4 accepted by user"
+}

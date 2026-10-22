@@ -7,7 +7,7 @@ import hashlib
 root = Path(__file__).resolve().parent
 base = root.parent / '6.位置反馈方案'
 files = [root / name for name in ['run_minimal_all_methods.m', 'verify_minimal_all_methods.m',
-         'analyze_minimal_all_methods.py', 'build_minimal_reports.py', 'freeze_minimal_sources.py']]
+         'analyze_minimal_all_methods.py', 'build_minimal_reports.py', 'method_explanation_content.py', 'freeze_minimal_sources.py']]
 files += list((root / '+min9').glob('*.m')) + list((root / '+dmimo').glob('*.m'))
 for pattern in ['+upa/*.m', '+ula/*.m', '+posfb/*.m', 'lib/*.m', 'shared/*']:
     files += list(base.glob(pattern))

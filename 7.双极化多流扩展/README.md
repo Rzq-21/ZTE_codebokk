@@ -2,14 +2,16 @@
 
 ## 全方法最小验证
 
-原九方法已补齐到同一双极化单流与双流框架，固定B=8、观测SNR=30dB、前32个共享位置，覆盖ULA/UPA和LOS/混合信道。HAQSE、DFT、POS分别有CPU/UE链路；Type-I/II为共享UE基线，SVD等功率为理想参考，另列注水容量。共4096条确认记录和256条独立位置流程预检查记录。
+当前讲解报告统一采用UPA，按“单极化单流 → 双极化单流 → 双极化双流”解释信道、发送信号与系数矩阵的变化，附可手算的2×2例子。随后分别讲UE和CPU的计算过程、反馈内容、实验配置和结果，各用独立结果表。后续新增报告遵循同样约定。
+
+原九方法已补齐到同一双极化单流与双流框架。报告选取B=8、观测SNR=30dB、前32个共享位置的UPA数据，覆盖LOS和混合信道。UE部分含HAQSE、DFT、POS的R3/R5及Type-I/II，共1024条记录；CPU部分单独含六种几何配置，共768条记录；另有256条理想参考记录。当前重写沿用既有数据，没有重跑实验。
 
 - [Markdown讲解报告](results/minimal_all_methods_20261022/双流双极化全方法最小验证与扩展说明.md)
 - [可转发的Word讲解报告](results/minimal_all_methods_20261022/双流双极化全方法最小验证与扩展说明.docx)
 - [最小验证数据与复现说明](results/minimal_all_methods_20261022/README.md)
 - [完整最小验证审计](results/minimal_all_methods_20261022/complete_audit.json)
 
-全部1792条可实施双流记录保持接收秩2，功率和整数消息审计通过。ULA混合信道DFT R3/R5 CPU分别有4/1个位置双流低于单流，其余配置均为32/32正增量。该结果验证实现可行性，暂不用于排名或一般性能结论。Type-II保留原双波束复合结构，已验证退化到单模式单极化时与原Type-I/II空间波束及bit计数一致。
+UPA的896条可实施双流记录均保持接收秩2，UE与CPU各配置本次均为32/32位置获得双流正增量；功率和整数消息审计通过。独立范围见[UPA报告核查](results/minimal_all_methods_20261022/report_scope_UPA.json)。该结果验证实现可行性，暂不用于排名或一般性能结论。Type-II保留原双波束复合结构，已验证退化到单模式单极化时与原Type-I/II空间波束及bit计数一致。
 
 本次复现入口为`verify_minimal_all_methods.m`、`run_minimal_all_methods.m`、`analyze_minimal_all_methods.py`、`build_minimal_reports.py`。下面保留此前位置反馈专门验证的完整400位置结果，与本次32位置结果分开使用。
 

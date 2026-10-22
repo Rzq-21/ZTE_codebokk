@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "pages": 8,
+  "pages": 12,
   "visually_inspected_pages": [
     1,
     2,
@@ -9,15 +9,24 @@
     5,
     6,
     7,
-    8
+    8,
+    9,
+    10,
+    11,
+    12
   ],
   "renderer": "Word 16 PDF export plus documents render_docx.py rasterization",
-  "editable_math_equations": 6,
-  "tables": 8,
+  "editable_math_equations": 24,
+  "tables": 7,
   "body_paragraph_parity_with_MD": true,
   "table_values_equal_to_same_data_model": true,
   "title_and_subtitle_rules_removed": true,
-  "source_input_files_verified": 87,
-  "docx_sha256": "9bcd12ea49b821ac512067e19534010f354cd6841fd39965f4928a7a92dd4ab2",
-  "md_sha256": "8e5ab00b575c55558a85282ed940ca5dfe2f1dca231e79937d1c8d70d9080f2d"
+  "UPA_only": true,
+  "UE_CPU_experiments_separate": true,
+  "source_input_files_verified": 88,
+  "computational_sources_and_simulation_results_unchanged": true,
+  "teaching_example_audit": "passed",
+  "scope_audit": "report_scope_UPA.json",
+  "docx_sha256": "4c11304042e58c24f099871ebfc3302427b00c38ab41cd6ebcb53d0ebac43450",
+  "md_sha256": "0af56ebc66830dbb58e093860c8fabb557d37a1e12387c8759e1c03405cf99a7"
 }

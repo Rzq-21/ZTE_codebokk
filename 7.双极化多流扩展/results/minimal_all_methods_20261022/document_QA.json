@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "pages": 8,
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "renderer": "Word 16 PDF export plus documents render_docx.py rasterization",
+  "editable_math_equations": 6,
+  "tables": 8,
+  "body_paragraph_parity_with_MD": true,
+  "table_values_equal_to_same_data_model": true,
+  "title_and_subtitle_rules_removed": true,
+  "source_input_files_verified": 87,
+  "docx_sha256": "9bcd12ea49b821ac512067e19534010f354cd6841fd39965f4928a7a92dd4ab2",
+  "md_sha256": "8e5ab00b575c55558a85282ed940ca5dfe2f1dca231e79937d1c8d70d9080f2d"
+}

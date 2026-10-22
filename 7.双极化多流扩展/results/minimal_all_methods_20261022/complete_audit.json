@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "records": 4096,
+  "samples_per_case": 32,
+  "case_count": 128,
+  "original_method_families": 9,
+  "extra_capacity_reference": true,
+  "realizable_dual_records": 1792,
+  "all_received_rank_two": true,
+  "minimum_received_mode_ratio": 0.0273107632923194,
+  "coefficient_messages_independently_replayed": 2048,
+  "coordinate_messages_replayed": 1024,
+  "CPU_UE_geometry_equal": true,
+  "maximum_POS_regression_Mbps": 0.0,
+  "total_power_max_error": 9.992007221626409e-16,
+  "per_AP_power_max_error": 1.3877787807814499e-16,
+  "coordinate_overflow_records": 0,
+  "negative_gain_cases": [
+    {
+      "array": "ULA",
+      "channel": "MIX",
+      "method": "DFT_R3",
+      "branch": "CPU",
+      "samples": 32,
+      "single_Mbps": 84.59497500246238,
+      "dual_Mbps": 128.4349312589031,
+      "gain_Mbps": 43.83995625644073,
+      "gain_percent": 51.82335742183817,
+      "positive_count": 28,
+      "minimum_gain_Mbps": -4.978840222520901,
+      "single_bits": 27.0,
+      "dual_bits": 27.0,
+      "minimum_received_mode_ratio": 0.0273107632923194
+    },
+    {
+      "array": "ULA",
+      "channel": "MIX",
+      "method": "DFT_R5",
+      "branch": "CPU",
+      "samples": 32,
+      "single_Mbps": 88.74311113597227,
+      "dual_Mbps": 134.20321437221884,
+      "gain_Mbps": 45.46010323624654,
+      "gain_percent": 51.22662779603538,
+      "positive_count": 31,
+      "minimum_gain_Mbps": -17.9506528916585,
+      "single_bits": 45.0,
+      "dual_bits": 45.0,
+      "minimum_received_mode_ratio": 0.120666207306611
+    }
+  ],
+  "interpretation": "minimal engineering feasibility; fixed 32 positions and nominal polarization; not a ranking or deployment-general validation"
+}

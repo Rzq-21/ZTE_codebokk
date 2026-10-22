@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "checks": 8,
+  "maximum_old_baseline_beam_error": 0,
+  "meaning": "rank-one and one-polarization limit reproduces original TypeI/II spatial messages and bit counts"
+}

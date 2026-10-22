@@ -66,7 +66,7 @@ def build(para,chapter,table,equation,blocks,pairs,audit):
     para('这意味着一条流可以同时占用两个极化端口，一个极化端口也可以同时承载两条流的线性组合。“每个极化固定对应一条流”只是某些特殊系数矩阵的情况，当前算法不作这个限制。')
     equation(r'\mathbf W_b=\mathbf F_b\mathbf C_b\in\mathbb C^{2048\times2},\quad \mathbf y=\sum_{b=1}^{B}\mathbf H_b\mathbf W_b\mathbf s+\mathbf n',[sub('W','b'),' = ',sub('F','b'),' ',sub('C','b'),',     y = ',('sum','b=1','B'),sub('H','b'),' ',sub('W','b'),' s + n'])
     para('若把旧预编码向量复制两遍，W_b的两列相同，两个符号就会以s₁+s₂的形式合在同一个方向上，不能形成两条独立接收模式。真正要设计的是两组不同的列权重，并使联合接收矩阵G保留两列线性独立的有效信号。')
-    equation(r'\mathbf G=\sum_b\mathbf H_b\mathbf F_b\mathbf C_b,\quad \operatorname{rank}(\mathbf G)=2',['G = ',('sum','b=1','B'),sub('H','b'),' ',sub('F','b'),' ',sub('C','b'),',     rank(G) = 2'])
+    equation(r'\mathbf G=\sum_b\mathbf H_b\mathbf F_b\mathbf C_b,\quad \mathrm{rank}(\mathbf G)=2',['G = ',('sum','b=1','B'),sub('H','b'),' ',sub('F','b'),' ',sub('C','b'),',     rank(G) = 2'])
     para('共同空间波束f_b只约束每种极化在阵列上的空间形状，并不要求W_b两列相同。两个极化端口加上多个AP和UE多个接收位置，形成联合有效信道中的可用模式。是否存在足够强的第二模式，仍取决于实际信道。')
 
     chapter('四 用一个手算例子看清两条流')

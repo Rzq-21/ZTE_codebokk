@@ -83,6 +83,31 @@ def md_table(headers, rows):
     return '\n'.join(['|'+'|'.join(headers)+'|','|'+'|'.join(['---']*len(headers))+'|']+['|'+'|'.join(map(str,row))+'|' for row in rows])
 
 
+def markdown_equation(latex):
+    # Keep matrix row separators apart from the next token. Some Markdown
+    # viewers otherwise mistake the second slash plus j/c/s for a macro.
+    formatted=latex.replace('\\\\', '\\\\\n')
+    allowed={'Sigma','alpha','begin','beta','boldsymbol','end','frac','in',
+             'ldots','mathbb','mathbf','mathrm','otimes','quad','sqrt','sum',
+             'times','widehat','widetilde'}
+    unknown=set(re.findall(r'\\([A-Za-z]+)',formatted))-allowed
+    assert not unknown, f'Unsupported Markdown math macros: {sorted(unknown)}'
+    return formatted
+
+
+def markdown_content():
+    md=['# '+TITLE,'','扩展原理与分链路最小验证  2026年10月22日','',f'[下载可转发的Word报告]({STEM}.docx)','']
+    for kind,data in BLOCKS:
+        if kind=='chapter':md.extend(['## '+data,''])
+        elif kind=='p':md.extend([data,''])
+        elif kind=='table':
+            caption,heads,rows,_=data;md.extend(['**'+caption+'**','',md_table(heads,rows),''])
+        elif kind=='eq':md.extend(['$$',markdown_equation(data[0]),'$$',''])
+        elif kind=='image':
+            path,caption=data;md.extend([f'![{caption}]({path})',''])
+    return '\n'.join(md)
+
+
 def set_font(run, name='宋体', size=11, bold=False):
     run.font.name=name;run.font.size=Pt(size);run.font.bold=bold;run.font.color.rgb=RGBColor(0,0,0)
     rpr=run._element.get_or_add_rPr();fonts=rpr.find(qn('w:rFonts'))
@@ -171,25 +196,29 @@ def write_reports():
     p.paragraph_format.space_after=Pt(14)
     footer=sec.footer.paragraphs[0];footer.alignment=WD_ALIGN_PARAGRAPH.CENTER
     fld=OxmlElement('w:fldSimple');fld.set(qn('w:instr'),'PAGE');footer._p.append(fld)
-    md=['# '+TITLE,'','扩展原理与分链路最小验证  2026年10月22日','',f'[下载可转发的Word报告]({STEM}.docx)','']
     for kind,data in BLOCKS:
         if kind=='chapter':
-            doc.add_page_break();p=doc.add_paragraph(data,style='Heading 1');p.paragraph_format.space_after=Pt(10);md.extend(['## '+data,''])
+            doc.add_page_break();p=doc.add_paragraph(data,style='Heading 1');p.paragraph_format.space_after=Pt(10)
         elif kind=='p':
-            doc.add_paragraph(data);md.extend([data,''])
+            doc.add_paragraph(data)
         elif kind=='table':
-            caption,heads,rows,widths=data;word_table(doc,caption,heads,rows,widths);md.extend(['**'+caption+'**','',md_table(heads,rows),''])
+            caption,heads,rows,widths=data;word_table(doc,caption,heads,rows,widths)
         elif kind=='eq':
-            latex,parts=data;native_equation(doc,parts);md.extend(['$$',latex,'$$',''])
+            latex,parts=data;native_equation(doc,parts)
         elif kind=='image':
             path,caption=data;p=doc.add_paragraph();p.alignment=WD_ALIGN_PARAGRAPH.CENTER;r=p.add_run();r.add_picture(str(OUT/path),width=Cm(16.0))
             pr=r._r.xpath('.//wp:docPr')[0];pr.set('descr',caption)
-            p=doc.add_paragraph(caption);p.alignment=WD_ALIGN_PARAGRAPH.CENTER;md.extend([f'![{caption}]({path})',''])
+            p=doc.add_paragraph(caption);p.alignment=WD_ALIGN_PARAGRAPH.CENTER
     doc.core_properties.title=TITLE;doc.core_properties.subject='UPA双极化双流扩展原理及UE和CPU独立验证';doc.core_properties.author='';doc.core_properties.last_modified_by=''
-    doc.save(OUT/(STEM+'.docx'));(OUT/(STEM+'.md')).write_text('\n'.join(md),encoding='utf-8')
+    doc.save(OUT/(STEM+'.docx'));(OUT/(STEM+'.md')).write_text(markdown_content(),encoding='utf-8')
     (OUT/'teaching_example_audit.json').write_text(json.dumps(EXAMPLE_AUDIT,ensure_ascii=False,indent=2),encoding='utf-8')
     print('Reports written:',STEM)
 
 
 if __name__=='__main__':
-    pipeline();build_content();report_scope();write_reports()
+    import sys
+    if '--markdown-only' in sys.argv:
+        build_content();(OUT/(STEM+'.md')).write_text(markdown_content(),encoding='utf-8')
+        print('Markdown updated; existing Word file preserved')
+    else:
+        pipeline();build_content();report_scope();write_reports()

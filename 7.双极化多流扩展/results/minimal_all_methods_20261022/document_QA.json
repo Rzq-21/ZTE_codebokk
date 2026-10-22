@@ -28,5 +28,7 @@
   "teaching_example_audit": "passed",
   "scope_audit": "report_scope_UPA.json",
   "docx_sha256": "4c11304042e58c24f099871ebfc3302427b00c38ab41cd6ebcb53d0ebac43450",
-  "md_sha256": "0af56ebc66830dbb58e093860c8fabb557d37a1e12387c8759e1c03405cf99a7"
+  "md_sha256": "312de27624e632af3d8757a9d5ac6673436729543f02974df666d6a5c1dfc8dd",
+  "markdown_math_check": "markdown_math_QA.json",
+  "word_file_unchanged_in_markdown_compatibility_fix": true
 }

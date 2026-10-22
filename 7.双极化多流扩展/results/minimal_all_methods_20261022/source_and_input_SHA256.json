@@ -418,8 +418,8 @@
     },
     {
       "path": "build_minimal_reports.py",
-      "bytes": 11768,
-      "sha256": "3cfd69fdcca070f935a5251f2e5043bdf6276add19387921d68098fa29c43782"
+      "bytes": 12910,
+      "sha256": "2f8aeaa47e3185a0770da80b9252b8ee6e05602cd6ca0f76b93e7f6f8b315324"
     },
     {
       "path": "freeze_minimal_sources.py",
@@ -428,8 +428,8 @@
     },
     {
       "path": "method_explanation_content.py",
-      "bytes": 27179,
-      "sha256": "ce4c8fe443d58d61db7810322fa01e29cdde0fa6200378a3dfe894b36ad9fc08"
+      "bytes": 27173,
+      "sha256": "d8f6df81707607ab6b651475ecdf72511785219a29505b7a11b757035e66b03e"
     },
     {
       "path": "run_minimal_all_methods.m",

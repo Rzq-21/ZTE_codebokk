@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "version": "DUAL_V1_20261022",
+  "main_and_supplement_records": 297600,
+  "legacy_rank_records": 3200,
+  "independent_pilot_records": 9792,
+  "arrays": [
+    {
+      "array": "ULA",
+      "records": 148800,
+      "case_count": 372,
+      "samples_per_case": 400,
+      "coefficient_messages_replayed": 72000,
+      "coefficient_replay_max_norm_error": 6.661338147750939e-16,
+      "coordinate_messages_replayed": 41600,
+      "position_and_beam_equality": true,
+      "overflow_records": 0,
+      "maximum_joint_capacity_excess": -0.19767965785259012
+    },
+    {
+      "array": "UPA",
+      "records": 148800,
+      "case_count": 372,
+      "samples_per_case": 400,
+      "coefficient_messages_replayed": 72000,
+      "coefficient_replay_max_norm_error": 5.551115123125783e-16,
+      "coordinate_messages_replayed": 41600,
+      "position_and_beam_equality": true,
+      "overflow_records": 0,
+      "maximum_joint_capacity_excess": -0.12235591346358987
+    }
+  ],
+  "frozen_source_and_input_files_verified": 82,
+  "paired_CI": "normal approximation mean +/- 1.96*std(paired delta)/sqrt(400); conditional on frozen topology and polar model",
+  "net_feedback_resource_subtraction": false,
+  "cpu_diagnostic_records": 9600,
+  "cpu_main_regression_maximum_Mbps": 5.115907697472721e-13
+}

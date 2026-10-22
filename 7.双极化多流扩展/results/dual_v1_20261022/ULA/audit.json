@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "array": "ULA",
+  "mode": "full",
+  "samples": 400,
+  "records": 148800,
+  "elapsed_seconds": 107.0629484,
+  "max_total_power_error": 9.9920072216264089E-16,
+  "max_per_AP_power_error": 2.4980018054066E-16,
+  "max_joint_capacity_excess": -0.19767965785259012,
+  "coordinate_overflows": 0,
+  "minimum_finite_feedback": 24
+}

@@ -1,0 +1,4 @@
+__pycache__/
+.qa_minimal/
+results/dual_v1_20261022/pilot_ULA/
+results/dual_v1_20261022/pilot_UPA/

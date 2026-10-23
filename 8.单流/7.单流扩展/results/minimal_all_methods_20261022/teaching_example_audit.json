@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "purpose": "illustrative algebra only; not simulation data",
+  "E": [
+    [
+      1.0,
+      0.3
+    ],
+    [
+      0.3,
+      1.0
+    ]
+  ],
+  "C": [
+    [
+      0.5,
+      0.5
+    ],
+    [
+      0.5,
+      -0.5
+    ]
+  ],
+  "G": [
+    [
+      0.65,
+      0.35
+    ],
+    [
+      0.65,
+      -0.35
+    ]
+  ],
+  "received_rank": 2,
+  "duplicated_column_received_rank": 1,
+  "precoder_power": 0.9999999999999998,
+  "received_column_inner_product": 0.0
+}

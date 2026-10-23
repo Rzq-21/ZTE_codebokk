@@ -1,0 +1,665 @@
+{
+  "protocol_version": "v2.0",
+  "models": {
+    "ULA64": {
+      "array_type": "ULA",
+      "array_shape": [
+        64
+      ],
+      "UE_height_bounds_m": [
+        0,
+        0
+      ],
+      "AP_height_bounds_m": [
+        0,
+        0
+      ],
+      "DFT_oversampling_per_dimension": 8,
+      "DFT_codebook_size": 512,
+      "DFT_bits_per_AP": 9,
+      "DFT_R3_direction_bits": 27,
+      "HAQSE_R3_direction_bits": 42,
+      "deployment_source": "previous selected 50m/6m compact_gap6; original accompanying orientation retained",
+      "APs": [
+        {
+          "physical_AP_id": 1,
+          "position_m": [
+            50.0,
+            37.85227985886603,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              -0.6649683064960737,
+              0.7468715762135708,
+              0.0
+            ],
+            [
+              -0.7468715762135708,
+              -0.6649683064960737,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "core8",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 2,
+          "position_m": [
+            0.0,
+            11.93798017122424,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              0.8866384996134196,
+              -0.4624631563738501,
+              0.0
+            ],
+            [
+              0.4624631563738501,
+              0.8866384996134196,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "core8",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 3,
+          "position_m": [
+            21.59951727275478,
+            50.0,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              0.15735597876793472,
+              0.9875419464235357,
+              0.0
+            ],
+            [
+              -0.9875419464235357,
+              0.15735597876793472,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "core8",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 4,
+          "position_m": [
+            1.6280258944785424,
+            0.0,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              0.9989758045357618,
+              -0.045247562941304185,
+              0.0
+            ],
+            [
+              0.045247562941304185,
+              0.9989758045357618,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "core8",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 5,
+          "position_m": [
+            0.0,
+            5.8579801712455435,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              0.33725863552244845,
+              -0.941412031347346,
+              0.0
+            ],
+            [
+              0.941412031347346,
+              0.33725863552244845,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "core8",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 6,
+          "position_m": [
+            7.708025894472615,
+            0.0,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              0.602047322273236,
+              -0.7984604071233754,
+              0.0
+            ],
+            [
+              0.7984604071233754,
+              0.602047322273236,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "core8",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 7,
+          "position_m": [
+            50.0,
+            43.93227985884755,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              -0.47455226652637517,
+              0.8802273265098512,
+              0.0
+            ],
+            [
+              -0.8802273265098512,
+              -0.47455226652637517,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "core8",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 8,
+          "position_m": [
+            49.560900517137696,
+            50.0,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              -0.9526334278557153,
+              0.30412094984047,
+              0.0
+            ],
+            [
+              -0.30412094984047,
+              -0.9526334278557153,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "core8",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 9,
+          "position_m": [
+            50.0,
+            25.0,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "previous fixed AP-count extension; not jointly optimized",
+          "scope": "extension9_10"
+        },
+        {
+          "physical_AP_id": 10,
+          "position_m": [
+            15.0,
+            0.0,
+            0.0
+          ],
+          "R_local_to_global": [
+            [
+              0.3713906763541037,
+              -0.9284766908852593,
+              0.0
+            ],
+            [
+              0.9284766908852593,
+              0.3713906763541037,
+              -0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "source": "previous fixed AP-count extension; not jointly optimized",
+          "scope": "extension9_10"
+        }
+      ],
+      "actual_min_horizontal_spacing_m": 6.079999999978696,
+      "minimum_horizontal_spacing_constraint_m": 6,
+      "active_order": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "reference_AP_sets": {
+        "3": [
+          1,
+          2,
+          3
+        ],
+        "5": [
+          1,
+          2,
+          3,
+          6,
+          8
+        ]
+      },
+      "geometry_id": "ULA64_G50_H6_ORIGINAL",
+      "frequency_quantization_rule": "circular_L_levels",
+      "extension10_actual_min_horizontal_spacing_m": 6.079999999978696,
+      "extension10_actual_min_3D_center_spacing_m": 6.079999999978696
+    },
+    "UPA32x32": {
+      "array_type": "UPA",
+      "array_shape": [
+        32,
+        32
+      ],
+      "UE_height_bounds_m": [
+        0,
+        5
+      ],
+      "AP_height_search_bounds_m": [
+        0,
+        12
+      ],
+      "DFT_oversampling_per_dimension": 4,
+      "DFT_codebook_size": 16384,
+      "DFT_bits_per_AP": 14,
+      "DFT_R3_direction_bits": 42,
+      "HAQSE_R3_direction_bits": 84,
+      "deployment_source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+      "APs": [
+        {
+          "physical_AP_id": 1,
+          "position_m": [
+            36.0,
+            0.0,
+            8.0
+          ],
+          "R_local_to_global": [
+            [
+              -0.9187348596436782,
+              -0.3322297060666166,
+              -0.21342371021608755
+            ],
+            [
+              0.3947292483216379,
+              -0.7580129065256992,
+              -0.5192352588758744
+            ],
+            [
+              0.010727450533360248,
+              -0.5612841133929867,
+              0.8275536634307791
+            ]
+          ],
+          "source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 2,
+          "position_m": [
+            0.0,
+            44.0,
+            12.0
+          ],
+          "R_local_to_global": [
+            [
+              0.8032950614249742,
+              0.17301502515450645,
+              0.5698972235070395
+            ],
+            [
+              0.10954023564886005,
+              0.8976331635678605,
+              -0.4269140902302791
+            ],
+            [
+              -0.5854211997051689,
+              0.4053646564933112,
+              0.7021121806391204
+            ]
+          ],
+          "source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 3,
+          "position_m": [
+            28.539545985241972,
+            50.0,
+            7.637124867398762
+          ],
+          "R_local_to_global": [
+            [
+              0.11842988580643263,
+              0.8476298286033737,
+              0.5172021227815009
+            ],
+            [
+              -0.9727411914397203,
+              0.20361951728135647,
+              -0.11096696201365888
+            ],
+            [
+              -0.19937135356993682,
+              -0.4899620044900652,
+              0.8486390855550835
+            ]
+          ],
+          "source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 4,
+          "position_m": [
+            50.0,
+            0.8999999999999986,
+            3.025
+          ],
+          "R_local_to_global": [
+            [
+              -0.989774060141286,
+              0.0866024181700174,
+              0.11334606759186487
+            ],
+            [
+              -0.018142498047396167,
+              -0.8645834610239281,
+              0.5021616161043038
+            ],
+            [
+              0.14148554567882327,
+              0.49497016080870104,
+              0.8573134667512079
+            ]
+          ],
+          "source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 5,
+          "position_m": [
+            12.012282095481828,
+            0.0,
+            8.874999999999998
+          ],
+          "R_local_to_global": [
+            [
+              0.8855854564079778,
+              -0.4191428997469,
+              0.20014402062123599
+            ],
+            [
+              0.28003530901137413,
+              0.8255917864679543,
+              0.4898759310514817
+            ],
+            [
+              -0.37056527779269577,
+              -0.37777960732206284,
+              0.8485068904764476
+            ]
+          ],
+          "source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 6,
+          "position_m": [
+            50.0,
+            1.1500000000000057,
+            7.020076688763564
+          ],
+          "R_local_to_global": [
+            [
+              -0.9910631900240275,
+              -0.07620186840575553,
+              0.10948528956380511
+            ],
+            [
+              -0.02333106793301201,
+              -0.7090965960824546,
+              -0.7047252505007761
+            ],
+            [
+              0.13133702695166932,
+              -0.7009816635802597,
+              0.7009816635802597
+            ]
+          ],
+          "source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 7,
+          "position_m": [
+            0.0,
+            10.549999999999983,
+            3.725
+          ],
+          "R_local_to_global": [
+            [
+              0.2539640298677402,
+              -0.9033260916844088,
+              0.3456938582264782
+            ],
+            [
+              0.9496569647661018,
+              0.16509362986065246,
+              -0.2662625445883608
+            ],
+            [
+              0.18345004988980657,
+              0.39591168896813933,
+              0.8997777579679456
+            ]
+          ],
+          "source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 8,
+          "position_m": [
+            19.792280664408594,
+            50.0,
+            8.975
+          ],
+          "R_local_to_global": [
+            [
+              -0.5375756548045313,
+              0.7579294818104716,
+              0.36953391720380613
+            ],
+            [
+              -0.8323006912203671,
+              -0.5472330342870043,
+              -0.08838306160762649
+            ],
+            [
+              0.13523303869831016,
+              -0.35507591693544677,
+              0.925004388344657
+            ]
+          ],
+          "source": "UPA32_center4_DFT_selected / DFT_search_01; maximize CPU DFT R3 gain on independent selector",
+          "scope": "core8"
+        },
+        {
+          "physical_AP_id": 9,
+          "position_m": [
+            50.0,
+            30.25,
+            6.0
+          ],
+          "R_local_to_global": [
+            [
+              -0.9695951185895415,
+              0.2055172342864138,
+              -0.13284567143342
+            ],
+            [
+              -0.2036149749038037,
+              -0.9786534966019707,
+              -0.027897591001018195
+            ],
+            [
+              -0.1357433166025358,
+              0.0,
+              0.9907440395973844
+            ]
+          ],
+          "source": "perimeter0.25m-grid greedy max-min horizontal spacing; height6m center aiming roll0; not jointly optimized",
+          "scope": "extension9_10"
+        },
+        {
+          "physical_AP_id": 10,
+          "position_m": [
+            48.5,
+            50.0,
+            6.0
+          ],
+          "R_local_to_global": [
+            [
+              -0.6813741277562717,
+              0.7286276689020074,
+              -0.06950552593000671
+            ],
+            [
+              -0.7248660933577359,
+              -0.6849100087678869,
+              -0.07394204886170927
+            ],
+            [
+              -0.10148125307008302,
+              0.0,
+              0.9948374516851113
+            ]
+          ],
+          "source": "perimeter0.25m-grid greedy max-min horizontal spacing; height6m center aiming roll0; not jointly optimized",
+          "scope": "extension9_10"
+        }
+      ],
+      "actual_min_horizontal_spacing_m": 0.2500000000000071,
+      "minimum_3D_center_spacing_constraint_m": 4,
+      "actual_min_3D_center_spacing_m": 4.00289117377703,
+      "active_order": [
+        1,
+        2,
+        3,
+        6,
+        8,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "reference_AP_sets": {
+        "3": [
+          1,
+          2,
+          3
+        ],
+        "5": [
+          1,
+          2,
+          3,
+          6,
+          8
+        ]
+      },
+      "geometry_id": "UPA32_G50_C4_DFT_FINAL",
+      "frequency_quantization_rule": "endpoint_L_levels",
+      "extension10_actual_min_horizontal_spacing_m": 0.2500000000000071,
+      "extension10_actual_min_3D_center_spacing_m": 4.00289117377703
+    }
+  },
+  "carrier_Hz": 7000000000.0,
+  "speed_of_light_m_s": 300000000.0,
+  "UE_antennas": 4,
+  "UE_array_axis_global": [
+    1,
+    0,
+    0
+  ],
+  "element_spacing_lambda": 0.5,
+  "AP_center_and_R_frozen": true
+}

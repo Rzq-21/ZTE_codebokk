@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "mode": "confirm",
+  "samples_per_case": 32,
+  "records": 4096,
+  "method_families": 9,
+  "extra_capacity_reference": true,
+  "realizable_dual_records": 1792,
+  "minimum_dual_received_mode_ratio": 0.027310763292319414,
+  "total_power_max_error": 6.6613381477509392E-16,
+  "per_AP_power_max_error": 1.3877787807814457E-16,
+  "overflow_records": 0,
+  "additional_checks": 3712,
+  "max_shared_POS_regression_Mbps": 0,
+  "elapsed_seconds": 11.7018603
+}

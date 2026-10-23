@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": 54,
+  "maximum_CPU_model_algebra_error": 1.0111700429466505E-15,
+  "coefficient_boundary": "rejects unexpected CSI fields",
+  "single_stream_joint_MMSE_equality": "asserted",
+  "total_and_per_AP_power": "asserted",
+  "waterfilling_analytic_tests": "passed"
+}

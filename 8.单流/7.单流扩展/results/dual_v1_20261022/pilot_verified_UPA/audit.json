@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "array": "UPA",
+  "mode": "pilot",
+  "samples": 24,
+  "records": 4896,
+  "elapsed_seconds": 17.0861534,
+  "max_total_power_error": 9.9920072216264089E-16,
+  "max_per_AP_power_error": 1.38777878078145E-16,
+  "max_joint_capacity_excess": -0.21687723393860914,
+  "coordinate_overflows": 0,
+  "minimum_finite_feedback": 36
+}

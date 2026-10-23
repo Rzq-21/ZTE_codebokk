@@ -1,0 +1,415 @@
+{
+  "version": "DUAL_V1_20261022",
+  "files": [
+    {
+      "path": "../6.位置反馈方案/+posfb/allocate.m",
+      "bytes": 791,
+      "sha256": "dd6e203a69a5e07357f7a4dad0580703fd66b06e2aff1f36da845991a5f03c94"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/columns.m",
+      "bytes": 324,
+      "sha256": "69e88eba47eb39a544476f4431ad55e2b22565d3342b3d93fecf6c85a1ded519"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/config.m",
+      "bytes": 1114,
+      "sha256": "52ef80cc261414c844e61ea31b8974861d135ae8a789473c7d5bc993970d0bc5"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/cpu_phase.m",
+      "bytes": 504,
+      "sha256": "f0f32f2c8f2544f97c33bb5518ac695b846468d1974028c0aea1d82e042a9d65"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/decode.m",
+      "bytes": 935,
+      "sha256": "85af628d73098fdcf119f90e004d8906b8710d668784bf4aef14a316cc12351e"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/encode.m",
+      "bytes": 598,
+      "sha256": "4f1d6c202d6dcae219d813424cd008adb78586167bf3645968af0cc4a1458658"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/phases.m",
+      "bytes": 327,
+      "sha256": "f1dd00794e2f3e67c3439a17b26baaadc48c6139b8a9e073f469f339dc4115a9"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/prediction.m",
+      "bytes": 938,
+      "sha256": "122946306f4852086af8944fa06f9cbe20a761a08ede5fe4b4c9b8f42d004d08"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/result_row.m",
+      "bytes": 1051,
+      "sha256": "4e5df6482b681be2d2032f30ab8d4e6415a1f583f789f1ff5dfadb7b51bff0ab"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/summarize.m",
+      "bytes": 1098,
+      "sha256": "a3a8c6085ad132d44333bf30154813b107b448d09746d479cdea18bd27dd9371"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/ue_phase.m",
+      "bytes": 443,
+      "sha256": "c10abad87ef433ab80c3ea066a007c08c9a4dc33a7b1c8f27a63c4bfb01253f2"
+    },
+    {
+      "path": "../6.位置反馈方案/+posfb/weighted_position.m",
+      "bytes": 1108,
+      "sha256": "f7566feec93817955102aa95f0802794d10361577a8d7b3cf9364e75865c22ed"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/beams.m",
+      "bytes": 106,
+      "sha256": "fdfcc38eec82b66d6da1388b69cde45e7989cac6702616aa70af2f3778ed22bc"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/cpu_from_message.m",
+      "bytes": 645,
+      "sha256": "9cd1a2cd722419ba2920da5d1ffdd798f6a4af0a8134e74358d8bde73539aacd"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/design_baselines.m",
+      "bytes": 2310,
+      "sha256": "7f2896965dd4ee21409788e91c0fbcdaca5038ce8bab892ba239a2b7d86f986f"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/encode_directions.m",
+      "bytes": 733,
+      "sha256": "94f47ea3d19cfa8c12203107599c47efcb5d05f3d5ec92447983eb6f1e43fe9b"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/load_inputs.m",
+      "bytes": 2400,
+      "sha256": "477671af048b723ac566de869000bb1040a9b6c523496f109fa525a53ffe67a5"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/localize.m",
+      "bytes": 618,
+      "sha256": "c38a5171a3a97947ebe7c070487695a2f5c2c075ef78df66dec1dd0ca62f3761"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/observe.m",
+      "bytes": 377,
+      "sha256": "cfb846b569ffc9af24fd95e32fda53684f2fe24f1152dc52329a154c9292e5ae"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/predict_directions.m",
+      "bytes": 1728,
+      "sha256": "5087c9fe084ce96df9ef318443722183b9cbb6f76e4a800a4cc3c821d9497c31"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/reconstruct_channel.m",
+      "bytes": 443,
+      "sha256": "45839c3e5759ec52801346c48aa2d9c33379d7d3c835ba1700bbff60f08d6bc3"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/result_row.m",
+      "bytes": 1816,
+      "sha256": "8f4ebaf19e9a55f4e6a723b5315714284a87a5084c9be3d0a2aa676bc4eb36e4"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/sample_channels.m",
+      "bytes": 833,
+      "sha256": "1fb745714848820223b0917937d7576da9b6c6e77c7e57098e4fa76af16718d9"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/spectrum.m",
+      "bytes": 159,
+      "sha256": "39d1fae22b52ccf0fc955267c18ea185b24313990fdb557c1bd879a2ec1ec949"
+    },
+    {
+      "path": "../6.位置反馈方案/+ula/ue_phase_from_message.m",
+      "bytes": 663,
+      "sha256": "3fee7e5da1cba3f16365e3ff264ac2b5ddc1b3308ffa524ec5eb6cf329dc1695"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/assemble.m",
+      "bytes": 135,
+      "sha256": "56db486739f0f93b5882d87ac9a7548a1e4adb238da0c5185049d861bcfc9069"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/beams.m",
+      "bytes": 131,
+      "sha256": "e2bdbb1639c59fe3ef6d8e999aa9fdadbcb4cc4922ce42bbffd03cdf4a566dd0"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/cpu_from_message.m",
+      "bytes": 637,
+      "sha256": "606fa85b816b681859acc6863e0a1d91ca0c8d961a29689dd0fe0d6fc9a9b05a"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/design_baselines.m",
+      "bytes": 2376,
+      "sha256": "e949c01fcba719b0456804315305016a726e9f7d2abac721829a0674498b3d30"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/encode_directions.m",
+      "bytes": 875,
+      "sha256": "547b1aacc3dfd16247d1e65fcece06ce7f6e92f282aa62c60c10df52bac2ddce"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/evaluate.m",
+      "bytes": 1350,
+      "sha256": "b3ea1447918e4810475a2be190b39eec4b23c25d641d9013e1e451bac3734097"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/load_inputs.m",
+      "bytes": 2636,
+      "sha256": "a8ce0f3391480ee3e1767182d510b18ded159f6865179cac396f08d1aaf11377"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/localize.m",
+      "bytes": 613,
+      "sha256": "8c7b5abf1e79ff0b35e54eeb92dc3e3bfbdfc6b745a2b199e9561803262cd62a"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/observe.m",
+      "bytes": 377,
+      "sha256": "c9c92930316a40190d0152a578ee674361c0e4a555412086a78e6ddf89dbf8cc"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/phase_weights.m",
+      "bytes": 224,
+      "sha256": "c6984a1f4cc361e9bbfc9e87f68511229d161b8d059fe837c7e13f6dcaaff934"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/predict_directions.m",
+      "bytes": 1809,
+      "sha256": "98210cdb62ec8a15a4fc60a008a3daff703ab1ac0be136dade6e548aae3120e2"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/principal.m",
+      "bytes": 225,
+      "sha256": "670398f2fa88aa5564a52a2a3b4ee8af90554d6fe642bd6fcd3f2e5742bfd525"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/reconstruct_channel.m",
+      "bytes": 427,
+      "sha256": "90f0cf568dd6d7c5a9b3960c8f794718122728763b23e7277dcfa2689834a571"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/result_row.m",
+      "bytes": 1820,
+      "sha256": "73a3cb90d96cd66a5be30cb9df31c7aa1f3c862f7c5ca08d78e831abc92c96b3"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/sample_channels.m",
+      "bytes": 834,
+      "sha256": "f314d8d47f062eac7bcab18bfdf2d6c929c5cb89af98e0127846696c952dcfcc"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/schema.m",
+      "bytes": 914,
+      "sha256": "96cf4a58db8c1902cf4cd13bb66e7b1661bd9e39258445e7cccd36def150b669"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/spectrum.m",
+      "bytes": 230,
+      "sha256": "d7df389897ddafef4a5c531636344f7307551d935217c9fcbb3f686eab84f66e"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/subset_message.m",
+      "bytes": 206,
+      "sha256": "82896cf94a5e34b582b6eab618ccaa9a90efe8ef84ed79f7baaaeebe330d0348"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/summarize.m",
+      "bytes": 1504,
+      "sha256": "1fa1176e16f09b5f56944b8dbb66d70055adf22af6074b8929c615e6d928deef"
+    },
+    {
+      "path": "../6.位置反馈方案/+upa/ue_phase_from_message.m",
+      "bytes": 810,
+      "sha256": "eed658c8717cf58bc19f3159f05fdaa6c57c3cb24b1a414571197d6ac686aae8"
+    },
+    {
+      "path": "../6.位置反馈方案/lib/haqse_ula_reference.m",
+      "bytes": 552,
+      "sha256": "f74f0380fe96069cd5908e85fded8e105cbbafc9b4272ec0b44ec08045ce8905"
+    },
+    {
+      "path": "../6.位置反馈方案/lib/MMV_CF_mQSE2_SumOfRatios.m",
+      "bytes": 8431,
+      "sha256": "cf047675d1887e95c94670b94b492646105c890681546f5f5edfd7eb32783f71"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/AP坐标与完整朝向_10台.csv",
+      "bytes": 4259,
+      "sha256": "fe19699ff3c0fd23eaa25e16db0bd750b152de33c50178a8bc4e336ad84cc36f"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/network_geometry.json",
+      "bytes": 16641,
+      "sha256": "4fac3b143801090c0a0809b7b0f2c5b2787c57eaf52f55bfc9d4b2f18c63c6e6"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/simulation_settings.json",
+      "bytes": 1958,
+      "sha256": "100195b8b96ba81ce5b02e3617051898f11bd42b2eacc16a1eca28560934babe"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/single_sample_alignment.mat",
+      "bytes": 2669841,
+      "sha256": "ca351f96f5a5aa03f8b4c40443567010844b919d5e3ac662d0298cc5b3d8b2c3"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/single_sample_alignment_summary.json",
+      "bytes": 857,
+      "sha256": "a6047d78bd29b07cedca8ef191b4a700d30298bbfc65b0bd5d23128ffc9fe6d5"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/source_hashes.json",
+      "bytes": 1254,
+      "sha256": "77244494135baa321b6146d6e2e315ccaa458cf8480ad409cbaa80f0c3a120ae"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/主实验运行清单.csv",
+      "bytes": 68229,
+      "sha256": "50232c678267c0e514780356d7ba6092765398a922dbf682a3d5a9ed88247900"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/低反馈预编码_双方同步实验配置_v2.md",
+      "bytes": 30053,
+      "sha256": "11c0329403d871698317f6ef52837f5309ec9030e7be8f242f742ab42819cac7"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/共享UE位置_400.csv",
+      "bytes": 25464,
+      "sha256": "320a6f9882d9e137066fa522305bdf4e704b17dac16c37f727750545deb246f7"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/共享散射系数_400x6.csv",
+      "bytes": 113864,
+      "sha256": "ee04a5e4d00e0d0ab9450af5f63ab42724ffd957a1b966f8780f8004b9e14097"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/反馈开销_确定值.csv",
+      "bytes": 2540,
+      "sha256": "f0b685ca0aeb207e3818f2b27a24ac2d82d4c983ff28ce4612b6b73e308c022b"
+    },
+    {
+      "path": "../6.位置反馈方案/shared/标准噪声种子_逐物理AP.csv",
+      "bytes": 194695,
+      "sha256": "bd488aea4096e4c5125340538c97377264a4221a02f5875ceb49691d6a5d3c43"
+    },
+    {
+      "path": "+dmimo/capacity.m",
+      "bytes": 264,
+      "sha256": "aa78a2fc03dfb4bc01987ae92b0433dbe72363f35280ca9546c1112b86de2050"
+    },
+    {
+      "path": "+dmimo/channel.m",
+      "bytes": 666,
+      "sha256": "8eed249d156eb68c4fd219da5fb7f08ad9a311e1235ff558529300543c405e5c"
+    },
+    {
+      "path": "+dmimo/coefficients.m",
+      "bytes": 293,
+      "sha256": "4cdff53052c6e7fd199c749b2c55aa67d33d5b8cf35cc94da20f0f23d7d9e3d5"
+    },
+    {
+      "path": "+dmimo/config.m",
+      "bytes": 759,
+      "sha256": "d84f1b8dbe4b08cd13f2c73321b70e0c8fc8f5b3caf1686a72eae91631458211"
+    },
+    {
+      "path": "+dmimo/cpu_model.m",
+      "bytes": 805,
+      "sha256": "7a87fa3c9bcdbae777cfda3a2889e75e5518796603ce11949c32f2781e7221ba"
+    },
+    {
+      "path": "+dmimo/decode_coeff.m",
+      "bytes": 907,
+      "sha256": "b8c28073a2971a6fcc8c678c1b92562f7505a5c73112cf428497c7462aac46e3"
+    },
+    {
+      "path": "+dmimo/encode_coeff.m",
+      "bytes": 430,
+      "sha256": "8e1b544d80e79610b10c567f4845fb97fbbd615532614727d1af14172907a675"
+    },
+    {
+      "path": "+dmimo/frequency.m",
+      "bytes": 458,
+      "sha256": "7cede8640eec557f35cd416208c72174729a6702b3c7f12f82145a0dfc06cbd9"
+    },
+    {
+      "path": "+dmimo/full_beams.m",
+      "bytes": 614,
+      "sha256": "d2bbda422fd4869f0d6c346fcebd6a5ed537114dc9abafbc3a20ce932aa5d1c7"
+    },
+    {
+      "path": "+dmimo/jones.m",
+      "bytes": 686,
+      "sha256": "65eb867f86ff6a5b789f68ea434a2396c9ce3a10bb4ee93dcfed9f0557f393a9"
+    },
+    {
+      "path": "+dmimo/json.m",
+      "bytes": 165,
+      "sha256": "2550189045a766150a91338fd83f663cb00f8f972d1b4466a26a965a7110e0c6"
+    },
+    {
+      "path": "+dmimo/metrics.m",
+      "bytes": 684,
+      "sha256": "1d5d5dc65d32332de8dee289b34d4631e6f4950629661e895b71a2336770dec6"
+    },
+    {
+      "path": "+dmimo/modes.m",
+      "bytes": 175,
+      "sha256": "2cca7e20312012a71ed6263b0d06957f777548fe90c2d3da401abdfaa9e6c96a"
+    },
+    {
+      "path": "+dmimo/observe.m",
+      "bytes": 176,
+      "sha256": "cc8d620861efe0e336c6029a5899b6c814d87c92bb5db2408613603608674f2e"
+    },
+    {
+      "path": "+dmimo/reduce.m",
+      "bytes": 230,
+      "sha256": "a139ac07c46e3396d0028cf04ecc256d60490cc87f3246a0b79a4f8836f35a3f"
+    },
+    {
+      "path": "+dmimo/sample.m",
+      "bytes": 655,
+      "sha256": "4a08c5da60f37f684ca7e9d179e60b18b95b69b54eddd850085840ceb65d3ba1"
+    },
+    {
+      "path": "+dmimo/setup.m",
+      "bytes": 259,
+      "sha256": "a779a85c6f3ee1044c4be325f7b1aafcae02c141dc9374813d9ad2ed70eea225"
+    },
+    {
+      "path": "analyze_dual_extension.py",
+      "bytes": 19475,
+      "sha256": "be1628e958d295c237c09cf6ed4ac9b74cfeb0b51c7a9a03601c4d8cda467467"
+    },
+    {
+      "path": "finalize_dual_extension.m",
+      "bytes": 4657,
+      "sha256": "81bd81db0371824d1c5d2825dab3a04ce96756ea8503c5e4abbeaaf946da4250"
+    },
+    {
+      "path": "run_cpu_diagnostics.m",
+      "bytes": 2132,
+      "sha256": "93a613970b3c5a47c259cd4ae725481c1481af1c458946645c2469fe6b1c11a8"
+    },
+    {
+      "path": "run_dual_extension.m",
+      "bytes": 7875,
+      "sha256": "22e4af6f8a8795072da83e2ec6e45c419a8bf9039e907144fcb8c6bbbc458313"
+    },
+    {
+      "path": "run_rank_diagnostic.m",
+      "bytes": 2040,
+      "sha256": "03d54794fec1f8eaaf07c2218e6dd1f0c819d71f4df6df177f325cdba50cd3fa"
+    },
+    {
+      "path": "verify_dual_extension.m",
+      "bytes": 3100,
+      "sha256": "256af41cb56a11440407176d7c49662be7a696024f5ee066ab4611f70914d91b"
+    }
+  ]
+}

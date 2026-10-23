@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "renderer": "KaTeX 0.16.11 strict parser",
+  "equations": 24,
+  "syntax_errors": 0,
+  "disallowed_operatorname_count": 0,
+  "matrix_row_separator_tokens_separated": true,
+  "mathematical_content_unchanged": true,
+  "md_sha256": "312de27624e632af3d8757a9d5ac6673436729543f02974df666d6a5c1dfc8dd"
+}

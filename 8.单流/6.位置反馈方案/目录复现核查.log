@@ -1,0 +1,14 @@
+D:\中兴任务二相关材料汇总\codebook_ZTE_task2_upload\6.位置反馈方案\+posfb\config.m
+D:\中兴任务二相关材料汇总\codebook_ZTE_task2_upload\6.位置反馈方案\+upa\load_inputs.m
+ULA verified; main bits [12 12]
+UPA verified; main bits [13 14 9]
+                          checks: 420
+     max_legacy_power_difference: 2.4869e-14
+    CPU_UE_beam_index_difference: 0
+    CPU_UE_position_difference_m: 0
+                          status: 'passed'
+
+ULA smoke sample 3/3 elapsed 0.8 s
+COMPLETE ULA main=120 supplement=576 elapsed 2.1 s
+UPA smoke sample 3/3 elapsed 2.3 s
+COMPLETE UPA main=120 supplement=600 elapsed 3.0 s
